@@ -53,7 +53,7 @@ a:hover {
 	background-color: silver;
 	/* background-image: url("rockywall.png"); */
 	width: 1024px;
-	height: 560px;
+	height: 740px;
 	margin: 0 auto 0 auto;
 }
 
@@ -122,25 +122,28 @@ input {
 }
 
 #hmassage {
-	position: relative;
-	top: 135px;
-	right: 150px;
+	position: absolute;
+	top: 350px;
+	width: 175px;
+	margin-left: 20px;
 	background-color: #4aaaa5;
-	padding: 10px;
+	padding: 12px;
+	text-align: center;
+	
 }
 
 #kinesiology {
 	position: relative;
-	top: 20px;
-	left: 20px;
 }
 
 #hkinesiology {
-	position: relative;
-	top: 135px;
-	right: 150px;
+	position: absolute;
+	top: 350px;
+	right: 603px;
+	width: 176px;
 	background-color: #4aaaa5;
-	padding: 10px; 
+	padding: 12px;
+	text-align: center;
 }
 
 #drinks {
@@ -148,11 +151,13 @@ input {
 }
 
 #hdrinks {
-	position: relative;
-	top: 135px;
-	right: 150px;
+	position: absolute;
+	top: 550px;
+	right: 843px;
+	width: 176px;
 	background-color: #4aaaa5;
-	padding: 10px;
+	padding: 12px;
+	text-align: center;
 }
 
 #health {
@@ -160,11 +165,13 @@ input {
 }
 
 #hhealth {
-	position: relative;
-	top: 135px;
-	right: 150px;
+	position: absolute;
+	top: 551px;
+	right: 603px;
+	width: 176px;
 	background-color: #4aaaa5;
-	padding: 10px; 
+	padding: 12px;
+	text-align: center; 
 }
 
 #diet {
@@ -172,11 +179,13 @@ input {
 }
 
 #hdiet {
-	position: relative;
-	top: 135px;
-	right: 150px;
+	position: absolute;
+	top: 751px;
+	right: 843px;
 	background-color: #4aaaa5;
-	padding: 10px; 
+	padding: 12px;
+	width: 176px;
+	text-align: center; 
 }
 
 #connect-to-me {
@@ -184,7 +193,7 @@ input {
 	margin: 0;
 	position: relative;
 	background-color: #ffffff;
-	width: 270px;
+	width: 215px;
 	height: 200px;
 	border: 1px solid #dddddd;
 	margin-top: 30px;
@@ -209,6 +218,7 @@ h3 {
 
 #sites {
     float: left;
+    margin-right: -20px;
 }
 
 #sites a {
@@ -220,6 +230,7 @@ h3 {
 footer {
 	clear: both;
 	position: sticky;
+	margin-top: 60px;
 	background-color: #666666;
 	padding: 30px;
 	text-align: center;
